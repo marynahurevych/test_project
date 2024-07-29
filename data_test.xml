@@ -1,20 +1,16 @@
 <?xml version='1.0' encoding='utf-8'?>
-<job>
-<id>839076</id>
-<titel>Recruiter (m/w/d)</titel>
-<untertitel/>
-<referenznummer>220000011163</referenznummer>
-<plz>49076,40213,30453,28195</plz>
-<emailbewerbung/>
-<catchwords>Kaufmann Kauffrau Personalkaufmann Personalkauffrau HR Human Resources Recruiting Personalbeschaffung Personalwesen Personalbetreuung Personaler Personalmanagement Bewerbermanagement</catchwords>
-<aktivab>2020-03-27</aktivab>
-<aktivbis>2020-05-26</aktivbis>
-<firmenid>45164</firmenid>
-<firmenname>Paracelsus-Klinik Adorf</firmenname>
-<artderanstellung>1</artderanstellung>
-<berufsfeld>211</berufsfeld>
-<locationText>Osnabrück, Düsseldorf, Hannover, Bremen</locationText>
-<url>https://anzeigen.jobsintownbla.de/job/10/493733.html#jitcid=stellenanzeigen</url>
-<logourl>https://anzeigen.jobsintown.de/logo/39550-160x80.gif</logourl>
-<trackerurl>https://count.mediaintown.de/piwik.php?idsite=18&rec=1&action_name=Jobs::K45164::839076::default::P10</trackerurl>
-</job>
+<jobs>
+	<job>
+		<id>839076</id>
+		<titel>Recruiter (m/w/d)</titel>
+		<untertitel/>
+		<referenznummer>220000011163</referenznummer>
+		<plz>49076,40213,30453,28195</plz>
+		<emailbewerbung>test@test.com</emailbewerbung>
+		<catchwords>Kaufmann Kauffrau Personalkaufmann Personalkauffrau HR Human Resources Recruiting Personalbeschaffung Personalwesen Personalbetreuung Personaler Personalmanagement Bewerbermanagement</catchwords>
+		<locationText>Osnabrück, Düsseldorf, Hannover, Bremen</locationText>
+		<url>https://anzeigen.jobsintownbla.de/job/10/493733.html#jitcid=stellenanzeigen</url>
+		<logourl>https://anzeigen.jobsintown.de/logo/39550-160x80.gif</logourl>
+		<trackerurl>https://count.mediaintown.de/piwik.php?idsite=18&rec=1&action_name=Jobs::K45164::839076::default::P10</trackerurl>
+	</job>
+</jobs>
