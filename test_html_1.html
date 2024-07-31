@@ -1,12 +1,39 @@
 <!DOCTYPE html>
+<meta charset="UTFbjk-8">
 <html>
 <head>
     <title>Encoding Error Example</title>
 </head>
 <body>
     <p>This is a paragraph with an unsupported character: 漢</p>
-    <p>This is a paragraph with an emoji: 😊</p> 
-    <p>This is a paragraph with a control character: \u001B</p> 
+    <p>(
+            “Some simple text.“,
+            b”Some simple text.“,
+            “ascii”,
+        ),
+        (
+            “This characters ¼, ½, and ¾ encoded with ISO-8859-1.“,
+            b”This characters \xbc, \xbd, and \xbe encoded with ISO-8859-1.“,
+            “ISO-8859-1”,
+        ),
+        (
+            “This characters ¼, ½, and ¾ encoded with utf-8.“,
+            (
+                b”This characters \xc2\xbc, \xc2\xbd, ”
+                b”and \xc2\xbe encoded with utf-8.”
+            ),
+            “utf-8”,
+        ),
+        (
+            “This characters ÿ and ß encoded with ISO-8859-1.“,
+            b”This characters \xff and \xdf encoded with ISO-8859-1.“,
+            “ISO-8859-1”,
+        ),
+        (
+            “This character € encoded with Windows-1252.“,
+            b”This character \x80 encoded with Windows-1252.“,
+            “Windows-1252”,
+        ),</p> 
     <p>This is a paragraph with invalid character: �</p>
 </body>
 </html>
