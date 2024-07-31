@@ -25,16 +25,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Canvas Example</title>
+    <title>Encrypted HTML Example</title>
+    <script src="decrypt.js"></script>
 </head>
 <body>
-    <h1>Canvas Content</h1>
-    <canvas id="myCanvas" width="300" height="200"></canvas>
+    <h1>Encrypted Content</h1>
+    <div id="content"></div>
     <script>
-        var canvas = document.getElementById('myCanvas');
-        var context = canvas.getContext('2d');
-        context.font = '20px Arial';
-        context.fillText('Rendered Content', 10, 50);
+        // Encrypted content (example: base64 encoded string)
+        var encryptedContent = "U29tZSBlbmNyeXB0ZWQgY29udGVudA==";
+        document.getElementById("content").innerText = decryptContent(encryptedContent);
     </script>
 </body>
 </html></url>
